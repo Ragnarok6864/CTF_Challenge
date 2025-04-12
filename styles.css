@@ -1,0 +1,132 @@
+header {
+    margin: 0px;
+    background-color: aliceblue;
+    font-size: 50px;
+    padding-bottom: 0px;
+    height: 100px;
+    display: flex;
+}
+
+head {
+    margin: 0px;
+    padding: 0px;
+}
+
+#Banner {
+    color: black;
+    background-color: blanchedalmond;
+    margin-top: 0px;
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    display: flex;
+    font-size: 20px;
+}
+
+#tabs {
+    background-color: cadetblue;
+    width: 25%;
+    border-left: 2px solid black;
+    text-align: center;
+}
+
+#gameSelector {
+    height: 150px;
+    
+}
+
+#gameSelector button{
+    width: 300px;
+    height: 150px;
+    font-size: large;
+}
+
+
+
+a:visited  {
+    color: blue;
+    text-decoration: none;
+}  
+
+
+body {
+    background-color: bisque;
+    color:blue;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+#main {
+    padding: 10px;
+    align-self: center;
+}
+
+#sus {
+    width:256px;height:256px;align-self: center; position: fixed; x: 100px; y: 200px;
+}
+
+
+
+
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+/* Style for the table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #f4f4f4; /* Background color of the table */
+}
+
+/* Style for table headers */
+th {
+    background-color: #4CAF50; /* Green background for the headers */
+    color: white;
+    padding: 10px;
+}
+
+/* Style for table rows */
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Optional: Hover effect for rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
