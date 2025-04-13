@@ -9,7 +9,7 @@ function validateLogin() {
     //const password = document.getElementById("password").value;
     
     // Check if the username and password are correct
-    if (username === validUsername) {
+    if (username === secret) {
         // You can redirect to another page or show content here
         document.getElementsByClassName("login-Container");
         window.location.href = "guarded.html"; // Example
