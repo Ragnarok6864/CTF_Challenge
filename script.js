@@ -1,5 +1,5 @@
 // Sample user credentials (for demo purposes)
-const validUsername = "THISISYOU";
+const secret = "NoOneHasToKnow";
 const validPassword = "ThisIsAPassword";
 
 // Function to validate login
